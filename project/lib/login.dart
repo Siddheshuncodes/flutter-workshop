@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
 
-class Login1View extends StatelessWidget {
+class LoginView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Login"),
+      ),
+      body: Center(
+          child: ElevatedButton(
+        onPressed: () {},
+        child: Text("Login"))
+      ),
+    );
   }
 }

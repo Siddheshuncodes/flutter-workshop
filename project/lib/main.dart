@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'login.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -9,15 +7,18 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        
+        primarySwatch: Colors.blue,
+      
       ),
-      home: Login1View(),
+      home: const LoginView(),
     );
   }
 }
